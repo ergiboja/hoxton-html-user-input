@@ -1,0 +1,101 @@
+.formular{
+    /* display: grid; */
+    place-items: center;
+    margin-top: 4%;
+    margin-left: 30%;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.formular::before{
+    content: '';
+    background:linear-gradient(90deg, rgba(228,0,185,1) 0%, rgba(18,16,136,1) 50%, rgba(41,156,237,1) 100%);
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    z-index: -1;
+    filter: blur(20px);
+  }
+
+  form{
+    display: grid;
+    gap:10px;
+     width: 35%;
+     border:none;
+     padding: 2%;
+     height: 75vh;
+
+   
+}
+
+#message{
+    border: none;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+#budget{
+    border: none;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+#service{
+    border: none;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+#email{
+    border: none;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+#username{
+    border: none;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titulli{
+    text-align: center;
+    margin-top:0;
+    
+    
+}
+.titulli h1{
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(90deg, rgba(0,185,255,1) 0%, rgba(251,76,239,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+input{
+    border: none;
+   
+}
+input:focus{
+    outline: none;
+    
+}
+select{
+    border: none;
+}
+select:focus{
+    outline: none;
+}
+.subi{
+    border-radius: 1em;
+    background: linear-gradient(90deg, rgba(251,76,239,1) 0%, rgba(0,185,255,1) 100%);
+    border-radius: 100px;
+    color: white;
+    font-family:sans-serif
+}
